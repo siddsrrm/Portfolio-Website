@@ -1,0 +1,41 @@
+@import "../vars.css";
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin: 0 10%;
+}
+
+
+.navItems {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+.navItems a {
+    font-size: 20px;
+    color: var(--color-text);
+    text-decoration: none;
+    position:relative;
+}
+
+.navItems a::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: rgb(0, 183,255);
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+.navItems a:hover::after {
+    opacity: 1;
+}
