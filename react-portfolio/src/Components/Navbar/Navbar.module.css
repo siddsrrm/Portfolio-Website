@@ -1,4 +1,4 @@
-@import "../vars.css";
+@import "../../vars.css";
 
 .navbar {
     display: flex;
@@ -36,6 +36,11 @@
     pointer-events: none;
 }
 
+.navItems a:hover {
+    color: white;
+}
+
 .navItems a:hover::after {
     opacity: 1;
+    
 }

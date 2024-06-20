@@ -1,0 +1,38 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-evenly;
+    z-index: 1;
+    margin-left: 17%;
+    margin-right: 10%;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 1000;
+    color: var(--color-text); 
+}
+
+.wavingHandImg {
+    z-index: 1;
+    animation-name: waving;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes waving {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(-0deg);
+    }
+}
