@@ -1,0 +1,25 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: black;
+    border-radius: 15px;
+    padding: 60px;
+    margin-top: 130px;
+    z-index: 1;
+    margin-left: 20%;
+    margin-right: 24%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.content {
+    color: var(--color-text);
+    font-size: 20px;
+}
