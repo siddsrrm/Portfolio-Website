@@ -1,0 +1,14 @@
+[
+    {
+      "title": "Java",
+      "imageSrc": "assets/java-logo.png"
+    },
+    {
+      "title": "C",
+      "imageSrc": "assets/c-logo.png"
+    },
+    {
+      "title": "C#",
+      "imageSrc": "assets/csharp-logo.png"
+    }
+  ]
