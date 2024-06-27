@@ -3,7 +3,7 @@ import styles from "./Contact.module.css"
 
 export const Contact = () => {
   return (
-    <footer className={styles.container}>
+    <footer className={styles.container} id="contact">
         <div className={styles.title}>
             <h2>Contact</h2>
         </div>
