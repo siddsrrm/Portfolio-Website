@@ -13,6 +13,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     text-align: center; /* Center the title */
+    margin-bottom: 15px;
 }
 
 .content {
@@ -50,7 +51,7 @@
 }
 
 .languageImgContainer, .technologyImgContainer {
-    background-color: black;
+    background-color: var(--color-secondary);
     border-radius: 50%; /* Corrected value for a circle */
     display: flex;
     align-items: center;
