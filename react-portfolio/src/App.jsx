@@ -7,7 +7,7 @@ import { Contact } from "./Components/Contact/Contact";
 
 
 function App() {
-  return <div className={styles.App}> 
+  return <div className={styles.App} id="home"> 
     <Navbar />
     <Home />
     <About/> 
