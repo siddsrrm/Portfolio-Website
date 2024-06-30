@@ -7,7 +7,7 @@ export const About = () => {
         <h2 className={styles.title}>
             About me
         </h2>
-        <div className={styles.content}>
+        <div className={styles.content} id="experience">
             <p>
                 I'm currently a student at Purdue Univeristy studying computer science. I am passionate about learning new technologies and skills to create innovative projects. 
                 Besides programming, I love to study history in my free time and am also a big sports enthusiast, with my favorites being basketball and football.
